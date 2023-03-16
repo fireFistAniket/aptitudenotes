@@ -1,0 +1,13 @@
+code {
+  background-color: aqua;
+  padding: 2px 5px;
+}
+figure {
+  width: 100%;
+}
+.searchResult {
+  right: 19px;
+  top: 62px;
+  z-index: 1;
+  width: 205px;
+}
