@@ -1118,4 +1118,67 @@ export const topicObj = [
     </figcaption>
   </figure>`,
   },
+  {
+    id: 13,
+    title: "SYLLOGISM",
+    data: `<figure class="figure">
+    <div class="figure-img rounded container">
+      <p>
+        Syllogisms are a logical argument of statements using deductive
+        reasoning to arrive at a conclusion. The major contribution to the
+        filed of syllogisms is attributed to Aristotle.The questions of
+        syllogisms of three main parts.
+      </p>
+      <ol>
+        <li>Major premise</li>
+        <li>Minor premise</li>
+        <li>Conclusion</li>
+      </ol>
+      <div class="container">
+        <h3>Example :</h3>
+        <p>
+          Major premise: All Actors are right-handed. <br />
+          <br />
+
+          Minor premise: All right-handed are Artists. <br />
+          <br />
+
+          The conclusion is: Some Artists are Actors.
+        </p>
+        <img
+          src="./assets/syllogism1.png"
+          alt="syllogism_example"
+          width="475"
+        />
+      </div>
+      <div class="container p-3">
+        <h3 style="display: inline">Answer:</h3>
+        <p class="d-inline mx-3">Incorrect</p>
+      </div>
+      <div class="p-3">
+        <h3>Explaination :</h3>
+        <h5>Case 1:</h5>
+        <p>
+          The Venn diagram of actors is inside right-handed and which in
+          turn is inside the Venn of artists. According to the diagram,
+          the portion of the red Venn diagram overlapping with green
+          indicates that some actors artist are actors. Hence the
+          conclusion is correct according to this diagram, but can not be
+          concluded as the final answer until the second case is checked.
+        </p>
+        <h5>Case 2:</h5>
+        <p>
+          Since all the Venn diagrams are overlapping with each other,
+          according to the diagram all the artists are actors or all the
+          actors are artists. Hence the conclusion is “ some artists are
+          actors” is wrong. Since the conclusion is wrong according to the
+          second Venn diagram
+        </p>
+      </div>
+    </div>
+    <figcaption class="figure-caption text-end">
+      <b id="title">SYLLOGISM</b>
+    </figcaption>
+  </figure>`,
+  },
 ];
