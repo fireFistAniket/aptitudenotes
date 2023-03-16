@@ -132,7 +132,7 @@ export const topicObj = [
         <h3>Explaination :</h3>
         <div class="container p-3">
           <img
-            src="./assets/direction_example_diagram.png"
+            src="assets/direction_example_diagram.png"
             alt=""
             height="150px"
             width="150px"
@@ -567,18 +567,18 @@ export const topicObj = [
     title: "BLOOD RELATION",
     data: `<figure class="figure">
     <div class="container">
-      <img src="./assets/blood_relation_diagram.png" alt="" />
+      <img src="assets/blood_relation_diagram.png" alt="" />
       <p>Family Tree Diagram</p>
     </div>
     <div class="py-3">
       <div class="d-block">
         <h3>Symbols</h3>
-        <img src="./assets/blood_relation_symbols.png" alt="" />
+        <img src="assets/blood_relation_symbols.png" alt="" />
       </div>
       <div class="d-flex text-center">
         <figure class="figure">
           <img
-            src="./assets/A_father_B.png"
+            src="assets/A_father_B.png"
             class="figure-img img-fluid rounded"
             alt="..."
           />
@@ -586,7 +586,7 @@ export const topicObj = [
         </figure>
         <figure class="figure">
           <img
-            src="./assets/A_brother_B.png"
+            src="assets/A_brother_B.png"
             class="figure-img img-fluid rounded"
             alt="..."
           />
@@ -596,7 +596,7 @@ export const topicObj = [
         </figure>
         <figure class="figure">
           <img
-            src="./assets/A_wife_B.png"
+            src="assets/A_wife_B.png"
             class="figure-img img-fluid rounded"
             alt="..."
             width="350px"
@@ -605,7 +605,7 @@ export const topicObj = [
         </figure>
         <figure class="figure">
           <img
-            src="./assets/A_son_B.png"
+            src="assets/A_son_B.png"
             class="figure-img img-fluid rounded"
             alt="..."
           />
@@ -613,7 +613,7 @@ export const topicObj = [
         </figure>
         <figure class="figure">
           <img
-            src="./assets/A_grandson_B.png"
+            src="assets/A_grandson_B.png"
             class="figure-img img-fluid rounded"
             alt="..."
           />
@@ -772,7 +772,7 @@ export const topicObj = [
         <code>(a<sup>1/3</sup> : b<sup>1/3</sup>)</code>. If
         <code>a = c</code> , then
         <img
-          src="./assets/abcdRelation.png"
+          src="assets/abcdRelation.png"
           alt=""
           height="69"
           width="125"
@@ -964,7 +964,7 @@ export const topicObj = [
       <h3>Examples :</h3>
       <div class="py-5">
         <img
-          src="./assets/Analogy1.png"
+          src="assets/Analogy1.png"
           alt="Analogy_1st_diagram"
           width="250"
         />
@@ -973,14 +973,14 @@ export const topicObj = [
           is mixing of 2nd & 3rd object. So the answer is:
         </p>
         <img
-          src="./assets/Analogy1Answer.png"
+          src="assets/Analogy1Answer.png"
           alt="Analogy_1st_diagram_answer"
           width="70"
         />
       </div>
       <div class="py-5">
         <img
-          src="./assets/Analogy2.png"
+          src="assets/Analogy2.png"
           alt="Analogy_2nd_diagram"
           width="250"
         />
@@ -988,14 +988,14 @@ export const topicObj = [
           It is same as 1st question . So the answer is:
         </p>
         <img
-          src="./assets/Analogy2Answer.png"
+          src="assets/Analogy2Answer.png"
           alt="Analogy_1st_diagram_answer"
           width="70"
         />
       </div>
       <div class="py-5">
         <img
-          src="./assets/Analogy3.png"
+          src="assets/Analogy3.png"
           alt="Analogy_3rd_diagram"
           width="275"
         />
@@ -1011,7 +1011,7 @@ export const topicObj = [
       </div>
       <div class="py-5">
         <img
-          src="./assets/Analogy4.png"
+          src="assets/Analogy4.png"
           alt="Analogy_4th_diagram"
           width="200"
         />
@@ -1036,52 +1036,52 @@ export const topicObj = [
     data: `<figure class="figure">
     <div class="figure-img rounded container">
       <img
-        src="./assets/speed_formula1.png"
+        src="assets/speed_formula1.png"
         alt=""
         class="d-block m-auto"
       />
       <p class="m-auto text-xl-center">
         if we want
-        <img src="./assets/speed_formula3.png" alt="" width="150" /> ->
-        <img src="./assets/speed_formula2.png" alt="" width="150" /> then
+        <img src="assets/speed_formula3.png" alt="" width="150" /> ->
+        <img src="assets/speed_formula2.png" alt="" width="150" /> then
         it will be
-        <img src="./assets/speed_formula4.png" alt="" width="180" />
+        <img src="assets/speed_formula4.png" alt="" width="180" />
       </p>
       <h3 class="text-decoration-underline">Important Notes:</h3>
       <p>
         1. Time taken by a train to cross a tree or pole
         completely.(Static object without motion & length can be
         negligable) => t =
-        <img src="./assets/speed_formula5.png" alt="" width="85" />
+        <img src="assets/speed_formula5.png" alt="" width="85" />
       </p>
       <p>
         2. Time taken by a train to cross a platfrom completely.(length
         can't be negligable) => t =
-        <img src="./assets/speed_formula6.png" alt="" width="85" />
+        <img src="assets/speed_formula6.png" alt="" width="85" />
       </p>
       <p>
         3. Time taken by a person 'A' to reach point 'B'. => t =
-        <img src="./assets/speed_formula7.png" alt="" width="85" />
+        <img src="assets/speed_formula7.png" alt="" width="85" />
       </p>
       <p>
         4. Time taken by a person 'A' to reach person 'B' or to cross
         person 'B' or to overtake person 'B'. => <br />
         t =
-        <img src="./assets/speed_formula8.png" alt="" width="85" /> (Same
+        <img src="assets/speed_formula8.png" alt="" width="85" /> (Same
         Direction) <br />
         t =
-        <img src="./assets/speed_formula9.png" alt="" width="85" />
+        <img src="assets/speed_formula9.png" alt="" width="85" />
         (Opposite Direction)
       </p>
       <p>
         5. Time taken by a train 'A' to reach or cross or overtake point
         'B'. => t =
-        <img src="./assets/speed_formula10.png" alt="" width="95" />
+        <img src="assets/speed_formula10.png" alt="" width="95" />
       </p>
       <p>
         6. Time taken by 2 train 'A' & 'B' to cross or meet or overtake.
         => t =
-        <img src="./assets/speed_formula11.png" alt="" width="95" />
+        <img src="assets/speed_formula11.png" alt="" width="95" />
       </p>
       <div class="container">
         <h3>Example :</h3>
@@ -1146,7 +1146,7 @@ export const topicObj = [
           The conclusion is: Some Artists are Actors.
         </p>
         <img
-          src="./assets/syllogism1.png"
+          src="assets/syllogism1.png"
           alt="syllogism_example"
           width="475"
         />
