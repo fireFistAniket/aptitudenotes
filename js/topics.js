@@ -1032,7 +1032,7 @@ export const topicObj = [
   },
   {
     id: 12,
-    title: "TIME SPEED & DISTANCE",
+    title: "TIME SPEED AND DISTANCE",
     data: `<figure class="figure">
     <div class="figure-img rounded container">
       <img

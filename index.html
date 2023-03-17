@@ -32,20 +32,29 @@
     <header id="header" class="body">
       <nav class="navbar bg-dark">
         <div class="container-fluid">
-          <a
-            class="navbar-brand"
-            data-bs-toggle="offcanvas"
-            href="#offcanvasExample"
-            role="button"
-            aria-controls="offcanvasExample"
-            ><img
-              src="./assets/logo.jpeg"
+          <div style="border-radius: 18%;">
+            <a
+              class="navbar-brand"
+              data-bs-toggle="offcanvas"
+              href="#offcanvasExample"
+              role="button"
+              aria-controls="offcanvasExample"
+              ><img
+              src="assets/hamburger-menu-icon.png"
               alt="logo_aptitude"
-              height="55"
+              height="57"
               title="logo_aptitude"
-              width="100px"
-          /></a>
-          <form class="d-flex" role="search" id="search">
+              width="62"
+          /></a><a href="/"><img
+            src="./assets/logo.jpeg"
+            alt="logo_aptitude"
+            class=""
+            title="logo_aptitude"
+            style="border-radius: 28%"
+            width="54px"
+        /></a>
+          </div>
+            <form class="d-flex" role="search" id="search">
             <input
               class="form-control me-2"
               type="search"
@@ -58,7 +67,7 @@
             class="list-group position-absolute searchResult"
             id="searchResult"
           >
-          <!-- <a class="list-group-item list-group-item-action" aria-current="true">
+            <!-- <a class="list-group-item list-group-item-action" aria-current="true">
             The current link item
           </a> -->
           </ul>
@@ -68,138 +77,67 @@
             id="offcanvasExample"
             aria-labelledby="offcanvasExampleLabel"
           >
-            <div class="offcanvas-body list-group">
-              <a
-                href="./components/codedInequality.html"
-                class="list-group-item list-group-item-action"
-                >1)CODED INEQUALITY</a
-              ><a
-                href="./components/direction.html"
-                class="list-group-item list-group-item-action"
-                >2)DIRECTIONS</a
-              ><a
-                href="./components/ages.html"
-                class="list-group-item list-group-item-action"
-                >3)AGES</a
-              ><a
-                href="./components/coding&decoding.html"
-                class="list-group-item list-group-item-action"
-                >4)CODING AND DECODING</a
-              ><a
-                href="./components/numberseries.html"
-                class="list-group-item list-group-item-action"
-                >5)NUMBER SERIES</a
-              ><a
-                href="./components/divisibilityrule.html"
-                class="list-group-item list-group-item-action"
-                >6)DIVISIBILTY RULES</a
-              ><a
-                href="./components/bloodrelation.html"
-                class="list-group-item list-group-item-action"
-                >7)BLOOD RELATION</a
-              ><a
-                href="./components/ratios&proportion.html"
-                class="list-group-item list-group-item-action"
-                >8)RATIOS AND PROPORTION</a
-              ><a
-                href="./components/percentage.html"
-                class="list-group-item list-group-item-action"
-              >
-                9)PERCENTAGES</a
-              ><a
-                href="./components/profit&loss.html"
-                class="list-group-item list-group-item-action"
-                >10)PROFIT AND LOSS</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >11)ANALOGY</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >12)TIME SPEED AND DISTANCE</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >13)SYLLOGISM</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >14)AVERAGES</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >15)PROBABILITY</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >16)PERMUTATION</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >17)COMBINATION</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >18)TIME AND WORK </a
-              ><a href="" class="list-group-item list-group-item-action"
-                >19)PIPES AND CISTERNS</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >20)LOGARITHMS</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >21)MIXTURE AND ALLIGATIONS</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >22)SIMPLE INTEREST AND COMPOUND INTEREST </a
-              ><a href="" class="list-group-item list-group-item-action"
-                >23)HCF AND LCM</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >24)PARTNERSHIP </a
-              ><a href="" class="list-group-item list-group-item-action"
-                >25)SEATING ARRANGEMENTS</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >26)BOATS AND STREAMS</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >27)RANKING</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >28)RACES</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >29)AP.GP</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >30)DATA INTERPRETATION</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >31)SET THEORY</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >32)REMAINDER THEOREM</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >33)DATA SUFFICIENCY</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >34)COUNTING NUMBER OF TRIANGLES</a
-              ><a href="" class="list-group-item list-group-item-action"
-                >35)HEADS AND LEGS</a
-              >
-            </div>
+            <div class="offcanvas-body list-group" id="navLinkList"></div>
           </div>
         </div>
       </nav>
       <section id="heading" class="header">
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div
+          id="carouselExample"
+          class="carousel slide"
+          data-pause="Hover"
+          data-bs-interval="3000"
+          data-bs-ride="carousel"
+        >
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
           <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
+            <div class="carousel-item active">
               <img
                 src="https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/03/22210204/Quantitative-Aptitude.jpg"
                 class="d-block w-100"
                 alt="..."
-                height="350px"
-                style="opacity: 0.8"
+                height="400"
               />
-              <div class="carousel-caption d-none d-md-block">
-                <h5 class="text-danger fs-2">
-                  This is the complete Aptitude Formulas
-                </h5>
-                <p class="text-danger fs-2">
-                  There are Complete Apptitude Formulas present in this full
-                  page. Total 35 chapters formula.
-                </p>
-              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://evalground.com/blog/wp-content/uploads/2018/03/What-Next_-7.png"
+                class="d-block w-100"
+                alt="..."
+                height="400"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://i1.wp.com/d3d2ir91ztzaym.cloudfront.net/uploads/2016/01/Hacks-to-improve-aptitude.jpg"
+                class="d-block w-100"
+                alt="..."
+                height="400"
+              />
             </div>
           </div>
         </div>
       </section>
     </header>
-    <div class="container p-5" id="pages"></div>
-    <div class="container-fluid">
-      <nav aria-label="..." class="justify-content-center d-flex" id="btnNav">
+    <div class="container p-5" id="pages">
+      <div class="container">
+        <h3 class="text-center">This is the complete Aptitude Formulas</h3>
+        <p class="d-inline">There are Complete Apptitude Formulas present in this full page. Total 35 topics' formulas. You can redirect by simply clicking the below indexes. Or you can go through every topics</p>&nbsp;&nbsp;<a href="#" class="d-inline text-success" id="startSlidePage">By clicking here</a>
+      </div>
+      <div class="container p-5">
+        <div class="row row-cols-5 justify-content-center" id="indexDiv">
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="btnDiv">
+      <nav aria-label="..." class="justify-content-center d-flex">
         <ul class="pagination d-flex justify-content-evenly">
           <li class="page-item disabled" id="previous">
-            <button
-              type="button"
-              class="page-link"
-              id="previousBtn"
-            >
+            <button type="button" class="page-link" id="previousBtn">
               Previous
             </button>
           </li>
